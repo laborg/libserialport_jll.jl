@@ -1,0 +1,16 @@
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "52dc735f87c524ab2c97483082e6dd6ec79e14bd"
+os = "windows"
+
+    [[libserialport.download]]
+    sha256 = "1c87618e81c4e78b1d3ed1407605cc0c5935addadec3effd68e0932fd6c6c14a"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0+0/libserialport.v1.2.0.x86_64-w64-mingw32.tar.gz"
+[[libserialport]]
+arch = "i686"
+git-tree-sha1 = "64f075ac5fae1aa349afc926a4686c7beea977a7"
+os = "windows"
+
+    [[libserialport.download]]
+    sha256 = "da64c1c414a3af6716f4f7217b59ae744a0529f7651212236db3c1f68c2131a4"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0+0/libserialport.v1.2.0.i686-w64-mingw32.tar.gz"
