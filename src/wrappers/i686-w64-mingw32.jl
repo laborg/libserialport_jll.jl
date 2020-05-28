@@ -5,7 +5,6 @@ export libserialport
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "PATH"
-LIBPATH_default = ""
 
 # Relative path to `libserialport`
 const libserialport_splitpath = ["bin", "libserialport-0.dll"]

@@ -1,16 +1,105 @@
 [[libserialport]]
 arch = "x86_64"
-git-tree-sha1 = "52dc735f87c524ab2c97483082e6dd6ec79e14bd"
+git-tree-sha1 = "0ab90add2709c58898b48143395b6846173aba73"
 os = "windows"
 
     [[libserialport.download]]
-    sha256 = "1c87618e81c4e78b1d3ed1407605cc0c5935addadec3effd68e0932fd6c6c14a"
-    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0+0/libserialport.v1.2.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "d281645f88f11b94585eb2e4f60a4c724cf5bd82b02d795562d32e33b5f448bd"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.x86_64-w64-mingw32.tar.gz"
+[[libserialport]]
+arch = "aarch64"
+git-tree-sha1 = "88fd794e36aa473d642beaee7f7006e75d3a051d"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "79d6c3298a81bf8d6c28c98d019ad75cd4bf107649a58037fc997fa18dce01ef"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.aarch64-linux-gnu.tar.gz"
 [[libserialport]]
 arch = "i686"
-git-tree-sha1 = "64f075ac5fae1aa349afc926a4686c7beea977a7"
+git-tree-sha1 = "d18236301b1609a26b39a23e52b7601d2e7d0474"
 os = "windows"
 
     [[libserialport.download]]
-    sha256 = "da64c1c414a3af6716f4f7217b59ae744a0529f7651212236db3c1f68c2131a4"
-    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0+0/libserialport.v1.2.0.i686-w64-mingw32.tar.gz"
+    sha256 = "3d8786d7e30f4fed1880e5405ce9fd616b69c9ba32928fe433b78102deb43746"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.i686-w64-mingw32.tar.gz"
+[[libserialport]]
+arch = "i686"
+git-tree-sha1 = "a97f9e2990c67aeb2b48fb5deed5998806b74105"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "ef0744cc05f8673555c9bc5d4f068a2875e458e999558905f45580f54538d5f7"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.i686-linux-musl.tar.gz"
+[[libserialport]]
+arch = "armv7l"
+git-tree-sha1 = "f48b26736f1d46a5e1e1fcd5640ad0645bdeade0"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "64c96bd7a449bf597ea531ebed189673c9eca74aa35279ad300cf143592d73d2"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.armv7l-linux-musleabihf.tar.gz"
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "8188d5d05c70d986c383e3c2a0630ba6bb03bf3d"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "caef116cc275e8c6cd97b8222d292d9d3c22634cf5d80bd95f354bd84099b67a"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.x86_64-linux-musl.tar.gz"
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "91140c9fa7c0fefbe53171ec2824bd4065936c74"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "11c3b4e0028d1e87181dd87cf8057378b5cf54f7e3e48ffe5ec7da76ac69f938"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.x86_64-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "armv7l"
+git-tree-sha1 = "4bc22651be6fd48b7e8d3d11efaabcd6554e4fe0"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "28cc61bab94b733472f56f846076b0e91864a2173d4d4523bf87525453b63f5d"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.armv7l-linux-gnueabihf.tar.gz"
+[[libserialport]]
+arch = "i686"
+git-tree-sha1 = "a54901c6aec51d9742d7cd2d8b5cdbd87714300a"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "4147b29c7d1f7ea1705d2907362ae9ce5d8e5a48581f66a7e4bb5cb7d2020279"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.i686-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "powerpc64le"
+git-tree-sha1 = "052bfcfb1228c66d744523e90c3b82195aa9d046"
+libc = "glibc"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "d1bb96e4495bc81016b369eb7b1c099606ed132ef55dba632fa0c9b5ac4df186"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.powerpc64le-linux-gnu.tar.gz"
+[[libserialport]]
+arch = "aarch64"
+git-tree-sha1 = "fef237b2b1366702f6df6e92ae14f4cc6abea2af"
+libc = "musl"
+os = "linux"
+
+    [[libserialport.download]]
+    sha256 = "e7942948275628eb47485e087571a5f7bb019d24b196702b46b92e808888b4bd"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.aarch64-linux-musl.tar.gz"
+[[libserialport]]
+arch = "x86_64"
+git-tree-sha1 = "c13208bf6e48652dc0677ec9896f0f61ce1f14d3"
+os = "macos"
+
+    [[libserialport.download]]
+    sha256 = "ef7ac73dc4c0fa735b019a9bb257424f787c3a1a44ccd9360cc98ca191ca9b5a"
+    url = "https://github.com/laborg/libserialport_jll.jl/releases/download/libserialport-v1.2.0-master+0/libserialport.v1.2.0-master.x86_64-apple-darwin14.tar.gz"
